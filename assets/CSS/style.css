@@ -1,0 +1,151 @@
+/*IMPORT FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: fixed;
+}
+.hero {
+    height: 705px; /*Tinggi*/
+    /*Lebar*/
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hero p {
+    margin-top: 50px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 60px;
+    margin-left: cm;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: "Archivo Narrow";
+    color: white;
+    font-weight: bold;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.button5 {
+    margin-top: 5cm;
+    background-color: yellow;
+    color: black;
+    border: 5px solid #555555;
+  }
+  
+  .button5:hover {
+    margin-top: 5cm;
+    background-color: #555555;
+    color: white;
+    border: 5px solid;
+  }
+
+  .container-2 {
+    display: flex;
+  }
+  .gambar{
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    }
+    .gambar img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    }
+
+    .button {
+        background-color: #04AA6D; /* Green */
+        border-radius: 10px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+      }
+      
+      .button:hover {
+        background-color: yellow; /* Green */
+        border-radius: 10px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+      }
+
+      .button-11 {
+        margin-left: 4cm;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+
+      .button-11:hover {
+        margin-left: 4cm;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+    
+      .bag-tabel {
+        font-family: "Dela Gothic One";
+        margin-top: 40px;
+        color: yellow;
+        font-size: 50px;
+        text-decoration: underline;
+      }
+
+      .bag-tabel2 {
+        font-family: "Archivo Narrow";
+        font-size: 25px;
+      }
+      table, th, td {
+        margin-top: 50px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 20px;
+        margin-bottom: 1.8cm;
+      }
+      table th {
+        text-align: center;
+        font-size: 23px;
+      }
+      table td {
+        font-size: 20px;
+        font-family: "Quantico";
+      }
+      tr:nth-child(even) {
+        background-color: grey;
+      }
+      tr:hover {
+        background-color: #04AA6D;
+      }
+
+      .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
